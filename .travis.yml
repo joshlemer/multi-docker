@@ -22,9 +22,6 @@ after_success:
   - docker push joshlemer/multi-nginx
   - docker push joshlemer/multi-worker
 
-
-
-
 deploy:
   provider: elasticbeanstalk
   region: us-east-1
